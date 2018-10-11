@@ -83,6 +83,9 @@ public class Mech {
             return;
         }
 
+        //вывод общего количества
+        System.out.println("Всего из слова \"" + base + "\" можно составить " + list.size() + " слов");
+
         //сортируем по алфавиту
         Collections.sort(list);
 
@@ -93,12 +96,19 @@ public class Mech {
                 maxLength = s.length();
 
         //вывод
-        for (int i = 2; i < maxLength; i++) {
-            System.out.println("Слова из " + i + " букв, составленные из слова \"" + base +  "\":");
+        for (int i = 2; i <= maxLength; i++) {
+            //создание подгруппы
+            List<String> group = new ArrayList<>();
             for (String word : list) {
                 if (word.length() == i)
-                    System.out.print(word + " ");
+                    group.add(word);
             }
+
+            //вывод подгруппы
+            System.out.println("Слова из " + i + " букв, составленные из слова \"" + base +  "\" (Количество слов: " + group.size() + "):");
+            for (String k : group)
+                System.out.print(k + " ");
+
             System.out.println("\n");
         }
     }
