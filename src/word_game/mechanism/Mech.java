@@ -44,7 +44,7 @@ class Mech {
 
                         //проверяем, можно ли из букв базового слова составить считанное
                         if (contain(baseList, word)) {
-                            if (userWords.contains(word))
+                            if (userWords.contains(in))
                                 System.out.println("Такое слово уже было!");
                             else {
                                 System.out.println("Принято!");
