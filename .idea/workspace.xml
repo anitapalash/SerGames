@@ -19,16 +19,15 @@
       <file leaf-file-name="Mech.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+            <state relative-caret-position="2278">
+              <caret line="134" column="45" lean-forward="false" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1116#2226#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-                <element signature="e#4432#4433#0" expanded="true" />
-                <element signature="e#4459#4460#0" expanded="true" />
-                <element signature="e#4491#4492#0" expanded="true" />
-                <element signature="e#4523#4524#0" expanded="true" />
+                <element signature="e#1014#2124#0" expanded="true" />
+                <element signature="e#2123#2124#0" expanded="true" />
+                <element signature="e#4330#4331#0" expanded="true" />
+                <element signature="e#4357#4358#0" expanded="true" />
+                <element signature="e#4436#4437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,23 +36,11 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsoleHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +73,9 @@
         <option value="$PROJECT_DIR$/src/prot/Solution.java" />
         <option value="$PROJECT_DIR$/src/word_game/Mech.java" />
         <option value="$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java" />
-        <option value="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" />
+        <option value="$PROJECT_DIR$/src/word_game/base_words.txt" />
         <option value="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" />
+        <option value="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" />
       </list>
     </option>
   </component>
@@ -149,6 +137,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="word_game" type="462c0819:PsiDirectoryNode" />
               <item name="mechanism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Serg1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serg1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="word_game" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539683588625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="no base word in words list">
+      <created>1539686221129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539686221130</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -421,7 +423,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -466,11 +467,12 @@
     <MESSAGE value="modified output" />
     <MESSAGE value="changed mechanism totally&#10;added two new files: ConsoleHelper and Controller" />
     <MESSAGE value="can't enter a word more than once" />
-    <option name="LAST_COMMIT_MESSAGE" value="can't enter a word more than once" />
+    <MESSAGE value="no base word in words list" />
+    <option name="LAST_COMMIT_MESSAGE" value="no base word in words list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -481,12 +483,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#2226#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
+            <element signature="e#1014#2124#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -497,12 +498,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#2226#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
+            <element signature="e#1014#2124#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,12 +513,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#2226#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
+            <element signature="e#1014#2124#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -529,12 +528,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#2226#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
+            <element signature="e#1014#2124#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -545,12 +543,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#2226#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
+            <element signature="e#1014#2124#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,14 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -595,30 +584,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/base_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="45" lean-forward="false" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#2226#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
+            <element signature="e#1014#2124#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
           </folding>
         </state>
       </provider>

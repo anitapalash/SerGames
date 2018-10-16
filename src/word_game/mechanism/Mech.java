@@ -1,9 +1,6 @@
 package word_game.mechanism;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 
@@ -135,7 +132,7 @@ class Mech {
         return base;
     }
 
-    public Mech(String base) {
+    public static void setBase(String base) {
         Mech.base = base;
     }
 

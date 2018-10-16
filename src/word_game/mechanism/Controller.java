@@ -2,17 +2,20 @@ package word_game.mechanism;
 
 import word_game.view.ConsoleHelper;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Controller {
     public static void main(String[] args) throws InterruptedException, IOException {
         ConsoleHelper helper = new ConsoleHelper();
-        Mech mech;
+        Mech mech = new Mech();
+        mech.setBase(createBaseWord());
 
         //Введение
         helper.start();
         //вместо аргумента будет подаваться резульат метода createBaseWord
-        mech = new Mech("паспорт");
         //Старт
         System.out.println(mech.getBase());
         //обратный отсчет
@@ -35,7 +38,16 @@ public class Controller {
     }
 
     //метод, который будет давать нам базовое слово
-    private String createBaseWord() {
-        return null;
+    public static String createBaseWord() throws IOException {
+        String fileName = "C:\\Users\\Анна\\Desktop\\base_words.txt";
+        BufferedReader dict_reader = new BufferedReader(new FileReader(fileName));
+        ArrayList<String> dictionary = new ArrayList<>();
+        String line;
+        while ((line = dict_reader.readLine()) != null) {
+            line = line.toLowerCase();
+            dictionary.add(line);
+        }
+        int index = (int) (Math.random() * dictionary.size());
+        return dictionary.get(index);
     }
 }
