@@ -29,6 +29,7 @@ class Mech {
            if (contain(baseList, word))
                words.add(line);
        }
+       words.remove(base);
 
        //Таймер
         TimerTask task = new TimerTask() {
@@ -47,8 +48,8 @@ class Mech {
                             if (userWords.contains(in))
                                 System.out.println("Такое слово уже было!");
                             else {
-                                System.out.println("Принято!");
                                 userWords.add(in);
+                                System.out.println();
                             }
                         } else
                             System.out.println("Такое слово нельзя составить :(");
@@ -122,7 +123,7 @@ class Mech {
             if (group.size() == 0)
                 continue;
 
-            System.out.println("Слова из " + i + " букв, составленные из слова \"" + base +  "\" (Количество слов: " + group.size() + "):");
+            System.out.println("Слова из " + i + " букв (Количество слов: " + group.size() + "):");
             for (String k : group)
                 System.out.print(k + " ");
 

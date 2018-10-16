@@ -12,7 +12,7 @@ public class Controller {
         //Введение
         helper.start();
         //вместо аргумента будет подаваться резульат метода createBaseWord
-        mech = new Mech("картошка");
+        mech = new Mech("паспорт");
         //Старт
         System.out.println(mech.getBase());
         //обратный отсчет
