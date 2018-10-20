@@ -10,13 +10,20 @@ class Mech {
     private ArrayList<String> userWords = new ArrayList<>();
     private List<Character> baseList;
 
+    public String getBase() {
+        return base;
+    }
+
+    public static void setBase(String base) {
+        Mech.base = base;
+    }
+
     public void run() throws IOException {
         //создаем поток чтения из файла
-       String fileName = "C:\\Users\\Анна\\Desktop\\word.txt";
+       String fileName = "src/word_game/dictionaries/word.txt";
        BufferedReader reader = new BufferedReader(new FileReader(fileName));
-       BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
-       //считываем слова из файла до его конца
+       //считываем слова из словаря до его конца
        String line;
        while ((line = reader.readLine()) != null) {
            baseList = sortList(base);
@@ -26,52 +33,18 @@ class Mech {
            if (contain(baseList, word))
                words.add(line);
        }
-       words.remove(base);
+       words.remove(base);  //удаляем базовое слово
 
-       //Таймер
-        TimerTask task = new TimerTask() {
-            //запускаем механизм
-            public void run() {
-                try {
-                    while (true){
-                        //ввод слова
-                        System.out.println("Введи слово:");
-                        String in = input.readLine();
-                        List<Character> word = sortList(in);
-                        baseList = sortList(base);
-
-                        //проверяем, можно ли из букв базового слова составить считанное
-                        if (contain(baseList, word)) {
-                            if (userWords.contains(in))
-                                System.out.println("Такое слово уже было!");
-                            else {
-                                userWords.add(in);
-                                System.out.println();
-                            }
-                        } else
-                            System.out.println("Такое слово нельзя составить :(");
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        };
-        Timer timer = new Timer();
-        long lasting = 60_000L;                        //Длительность уровня
-        timer.schedule(task, 10L, lasting);    //Запуск игры на время
-
-        //закрываем потоки
+        //закрываем поток
        reader.close();
-       //input.close();
     }
 
     //функция для обработки слова
     private static List<Character> sortList(String word) {
-        //все слова переводим в нижний регистр
-        word = word.toLowerCase();
-        //превращаем слово в массив и сортируем по алфавиту
-        char[] wordArr = word.toCharArray();
+        word = word.toLowerCase();                  //все слова переводим в нижний регистр
+        char[] wordArr = word.toCharArray();        //превращаем слово в массив и сортируем по алфавиту
         Arrays.sort(wordArr);
+
         //превращаем массив в лист для удобства работы с ним
         List<Character> list = new ArrayList<>();
         for (char c : wordArr)
@@ -93,6 +66,48 @@ class Mech {
         }
 
         return result;
+    }
+
+    //функция игры игрока
+    public void playerGame() {
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+
+        //Таймер
+        TimerTask task = new TimerTask() {
+            //запускаем механизм
+            public void run() {
+                try {
+                    while (true){
+                        //ввод слова
+                        System.out.println("Введи слово:");
+                        String in = input.readLine();
+                        List<Character> word = sortList(in);
+                        baseList = sortList(base);
+
+                        //проверяем, можно ли из букв базового слова составить считанное
+                        if (contain(baseList, word)) {
+                            if (userWords.contains(in))
+                                System.out.println("Такое слово уже было!");
+                            else {
+                                if (!words.contains(in))
+                                    System.out.println("Такого слова нет в нашем словаре :(");
+                                else {
+                                    userWords.add(in);
+                                    System.out.println();
+                                }
+                            }
+                        } else
+                            System.out.println("Такое слово нельзя составить :(");
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        Timer timer = new Timer();
+        long lasting = 60_000L;                        //Длительность уровня
+        timer.schedule(task, 10L, lasting);    //Запуск игры на время
+
     }
 
 
@@ -126,14 +141,6 @@ class Mech {
 
             System.out.println("\n");
         }
-    }
-
-    public String getBase() {
-        return base;
-    }
-
-    public static void setBase(String base) {
-        Mech.base = base;
     }
 
     public void finish () {

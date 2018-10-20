@@ -12,34 +12,44 @@ public class Controller {
         ConsoleHelper helper = new ConsoleHelper();
         Mech mech = new Mech();
         mech.setBase(createBaseWord());
+        boolean auto_game;
 
-        //Введение
-        helper.start();
-        //вместо аргумента будет подаваться резульат метода createBaseWord
-        //Старт
-        System.out.println(mech.getBase());
-        //обратный отсчет
-        helper.countDown();
-        //игра
-        mech.run();
+        //выбор режима игры
+        auto_game = helper.chooseMode();
 
-        Thread.sleep(60_000);
-        //Финиш и результаты
-        helper.space();
-        System.out.println("Финиш!");
-        helper.space();
-        //вывод слов пользователя
-        System.out.println("Слова, которые ты составил:");
-        mech.results();
-        helper.space();
-        //вывод возможных слов
-        System.out.println("Слова, которые можно было составить:");
-        mech.finish();
+        if (auto_game) {
+            helper.startGameWithoutPlayer();
+            System.out.println(mech.getBase());
+            System.out.println("Компьютер готов!");
+            mech.run();
+            helper.space();
+            mech.finish();
+        } else {
+            helper.startGameWithPlayer();
+            System.out.println(mech.getBase());
+            mech.run();
+            mech.playerGame();
+            Thread.sleep(60_000);
+
+            //Финиш и результаты
+            helper.space();
+            System.out.println("Финиш!");
+            helper.space();
+
+            //вывод слов пользователя
+            System.out.println("Слова, которые ты составил:");
+            mech.results();
+            helper.space();
+
+            //вывод возможных слов
+            System.out.println("Слова, которые можно было составить:");
+            mech.finish();
+        }
     }
 
     //метод, который будет давать нам базовое слово
     public static String createBaseWord() throws IOException {
-        String fileName = "C:\\Users\\Анна\\Desktop\\base_words.txt";
+        String fileName = "src/word_game/dictionaries/base_words.txt";
         BufferedReader dict_reader = new BufferedReader(new FileReader(fileName));
         ArrayList<String> dictionary = new ArrayList<>();
         String line;
