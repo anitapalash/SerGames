@@ -5,19 +5,17 @@ import java.util.*;
 
 
 class Mech {
-    private static String base;
-    private ArrayList<String> words = new ArrayList<>();
-    private ArrayList<String> userWords = new ArrayList<>();
-    private List<Character> baseList;
+    protected static String base;
+    protected ArrayList<String> words = new ArrayList<>();            //слова, которые можно составить из базового
+    protected ArrayList<String> userWords = new ArrayList<>();        //слова пользователя
+    private List<Character> baseList;                               //базовое слово побуквенно
 
-    public String getBase() {
-        return base;
-    }
-
+    //функция, которая назначает базовое слово
     public static void setBase(String base) {
         Mech.base = base;
     }
 
+    //автоигра
     public void run() throws IOException {
         //создаем поток чтения из файла
        String fileName = "src/word_game/dictionaries/word.txt";
@@ -110,8 +108,7 @@ class Mech {
 
     }
 
-
-    //функция для вывода
+    //функции для вывода
     private void output(ArrayList<String> list) {
         //сортируем по алфавиту
         Collections.sort(list);

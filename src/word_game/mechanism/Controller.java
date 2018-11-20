@@ -1,33 +1,34 @@
 package word_game.mechanism;
 
 import word_game.view.ConsoleHelper;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class Controller {
     public static void main(String[] args) throws InterruptedException, IOException {
         ConsoleHelper helper = new ConsoleHelper();
         Mech mech = new Mech();
-        mech.setBase(createBaseWord());
+        LevelCreator levelCreator = new LevelCreator(mech);
         boolean auto_game;
 
         //выбор режима игры
         auto_game = helper.chooseMode();
+        levelCreator.setLevel(helper.chooseLevel());
 
         if (auto_game) {
             helper.startGameWithoutPlayer();
-            System.out.println(mech.getBase());
+            System.out.println(mech.base);
             System.out.println("Компьютер готов!");
             mech.run();
+            levelCreator.createLevel();
             helper.space();
             mech.finish();
+            helper.space();
+            helper.gameWon();
         } else {
             helper.startGameWithPlayer();
-            System.out.println(mech.getBase());
+            System.out.println(mech.base);
             mech.run();
+            levelCreator.createLevel();
             mech.playerGame();
             Thread.sleep(60_000);
 
@@ -44,20 +45,13 @@ public class Controller {
             //вывод возможных слов
             System.out.println("Слова, которые можно было составить:");
             mech.finish();
-        }
-    }
 
-    //метод, который будет давать нам базовое слово
-    public static String createBaseWord() throws IOException {
-        String fileName = "src/word_game/dictionaries/base_words.txt";
-        BufferedReader dict_reader = new BufferedReader(new FileReader(fileName));
-        ArrayList<String> dictionary = new ArrayList<>();
-        String line;
-        while ((line = dict_reader.readLine()) != null) {
-            line = line.toLowerCase();
-            dictionary.add(line);
+            //вывод результата игры
+            helper.space();
+            if (levelCreator.isGameWon())
+                helper.gameWon();
+            else
+                helper.gameLost();
         }
-        int index = (int) (Math.random() * dictionary.size());
-        return dictionary.get(index);
     }
 }
