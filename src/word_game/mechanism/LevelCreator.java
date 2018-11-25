@@ -18,7 +18,7 @@ public class LevelCreator {
 
     public void setLevel(int level) {
         this.level = level;
-        this.levelCoef = (double)level / 10.0;
+        this.levelCoef = (double)level / 20.0;
     }
 
     //функция, которая создает текущий уровень
