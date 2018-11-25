@@ -103,7 +103,7 @@ class Mech {
             }
         };
         Timer timer = new Timer();
-        long lasting = 60_000L;                        //Длительность уровня
+        long lasting = 60_000L * 2L;                        //Длительность уровня
         timer.schedule(task, 10L, lasting);    //Запуск игры на время
 
     }

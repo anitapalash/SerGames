@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac56cf2d-6407-404c-a7d1-8bf5356e620b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" afterPath="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" afterPath="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +19,8 @@
       <file leaf-file-name="LevelCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+            <state relative-caret-position="212">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="187">
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,16 +40,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mech.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mech.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="429">
+              <caret line="105" column="33" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#run#0;class#Mech#0" expanded="false" />
                 <element signature="method#sortList#0;class#Mech#0" expanded="false" />
                 <element signature="method#contain#0;class#Mech#0" expanded="false" />
-                <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
                 <element signature="method#output#0;class#Mech#0" expanded="false" />
                 <element signature="method#finish#0;class#Mech#0" expanded="false" />
                 <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -490,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542719259271</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new dictionary">
+      <created>1543149011274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543149011274</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new dictionary">
+      <created>1543149308626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543149308626</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -498,6 +513,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -546,7 +562,8 @@
     <MESSAGE value="added base word creation" />
     <MESSAGE value="autogame added" />
     <MESSAGE value="levels added" />
-    <option name="LAST_COMMIT_MESSAGE" value="levels added" />
+    <MESSAGE value="new dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="new dictionary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,9 +588,9 @@
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -622,9 +639,9 @@
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -663,9 +680,9 @@
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -718,9 +735,9 @@
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -773,9 +790,9 @@
           <caret line="134" column="45" lean-forward="false" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -799,9 +816,9 @@
           <caret line="134" column="45" lean-forward="false" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -825,9 +842,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -841,9 +858,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -857,9 +874,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -873,9 +890,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -889,9 +906,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
             <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
             <element signature="method#output#0;class#Mech#0" expanded="false" />
             <element signature="method#finish#0;class#Mech#0" expanded="false" />
             <element signature="method#results#0;class#Mech#0" expanded="false" />
@@ -959,26 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sortList#0;class#Mech#0" expanded="false" />
-            <element signature="method#contain#0;class#Mech#0" expanded="false" />
-            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
-            <element signature="method#output#0;class#Mech#0" expanded="false" />
-            <element signature="method#finish#0;class#Mech#0" expanded="false" />
-            <element signature="method#results#0;class#Mech#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        <state relative-caret-position="212">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -987,10 +988,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="105" column="33" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#Mech#0" expanded="false" />
+            <element signature="method#sortList#0;class#Mech#0" expanded="false" />
+            <element signature="method#contain#0;class#Mech#0" expanded="false" />
+            <element signature="method#output#0;class#Mech#0" expanded="false" />
+            <element signature="method#finish#0;class#Mech#0" expanded="false" />
+            <element signature="method#results#0;class#Mech#0" expanded="false" />
           </folding>
         </state>
       </provider>

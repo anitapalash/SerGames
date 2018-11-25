@@ -30,7 +30,7 @@ public class Controller {
             mech.run();
             levelCreator.createLevel();
             mech.playerGame();
-            Thread.sleep(60_000);
+            Thread.sleep(60_000*2);
 
             //Финиш и результаты
             helper.space();
