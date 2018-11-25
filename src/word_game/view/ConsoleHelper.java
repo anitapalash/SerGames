@@ -56,7 +56,7 @@ public class ConsoleHelper {
     }
 
     public int chooseLevel() throws IOException {
-        System.out.println("Тебе также предстоит выбрать уровень. Введи, пожалуйста, число от 1 до 10");
+        System.out.println("Тебе также предстоит выбрать уровень. Введи, пожалуйста, число от 1 до 20");
         int level = Integer.parseInt(reader.readLine());
         if (level > 0 || level <= 10) {
             return level;

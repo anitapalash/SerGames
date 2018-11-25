@@ -21,6 +21,8 @@ public class LevelCreator {
         this.levelCoef = (double)level / 20.0;
     }
 
+
+
     //функция, которая создает текущий уровень
     public void createLevel() {
         winnerList = thisLevelList(mech.words);

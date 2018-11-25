@@ -21,7 +21,7 @@ public class Controller {
             mech.run();
             levelCreator.createLevel();
             helper.space();
-            mech.finish();
+            mech.finish(levelCreator.winnerList);
             helper.space();
             helper.gameWon();
         } else {
@@ -43,8 +43,8 @@ public class Controller {
             helper.space();
 
             //вывод возможных слов
-            System.out.println("Слова, которые можно было составить:");
-            mech.finish();
+            System.out.println("Слова, которые нужно было составить для победы:");
+            mech.finish(levelCreator.winnerList);
 
             //вывод результата игры
             helper.space();

@@ -140,20 +140,20 @@ class Mech {
         }
     }
 
-    public void finish () {
+    public void finish (ArrayList<String> winnerWords) {
         //вывод общего количества
-        if (words.size() == 0) {
+        if (winnerWords.size() == 0) {
             System.out.println("Из этого слова нельзя составить ничего :)");
             return;
         }
-        System.out.print("Всего из слова \"" + base + "\" можно составить " + words.size() + " слов");
-        if (words.size() == 1 || words.size() == 21)
+        System.out.print("Всего из слова \"" + base + "\" можно составить " + winnerWords.size() + " слов");
+        if (winnerWords.size() == 1 || winnerWords.size() == 21)
             System.out.println("о");
-        else if (words.size() < 5 || (words.size() > 21 && words.size() < 25))
+        else if (winnerWords.size() < 5 || (winnerWords.size() > 21 && winnerWords.size() < 25))
             System.out.println("a");
         else
             System.out.println("\n");
-        output(words);   //вывод
+        output(winnerWords);   //вывод
     }
 
     public void results() {
