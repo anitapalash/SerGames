@@ -18,7 +18,7 @@ class Mech {
     //автоигра
     public void run() throws IOException {
         //создаем поток чтения из файла
-       String fileName = "src/word_game/dictionaries/word.txt";
+       String fileName = "src/word_game/dictionaries/singular.txt";
        BufferedReader reader = new BufferedReader(new FileReader(fileName));
 
        //считываем слова из словаря до его конца

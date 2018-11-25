@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac56cf2d-6407-404c-a7d1-8bf5356e620b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" afterPath="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" afterPath="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +18,10 @@
       <file leaf-file-name="LevelCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="943">
               <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,8 +30,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +42,8 @@
       <file leaf-file-name="Mech.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sortList#0;class#Mech#0" expanded="false" />
@@ -61,10 +57,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="singular.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/word_game/dictionaries/singular.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ConsoleHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="1088">
               <caret line="73" column="56" lean-forward="false" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,9 +114,9 @@
         <option value="$PROJECT_DIR$/src/word_game/base_words.txt" />
         <option value="$PROJECT_DIR$/src/word_game/dictionaries/word.txt" />
         <option value="$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java" />
-        <option value="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" />
         <option value="$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java" />
         <option value="$PROJECT_DIR$/src/word_game/mechanism/Controller.java" />
+        <option value="$PROJECT_DIR$/src/word_game/mechanism/Mech.java" />
       </list>
     </option>
   </component>
@@ -144,10 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +173,13 @@
               <item name="Serg1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="word_game" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Serg1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serg1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="word_game" type="462c0819:PsiDirectoryNode" />
               <item name="mechanism" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,12 +193,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New Project" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -470,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540042484259</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="levels added">
+      <created>1542719259271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542719259271</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -525,7 +545,8 @@
     <MESSAGE value="no base word in words list" />
     <MESSAGE value="added base word creation" />
     <MESSAGE value="autogame added" />
-    <option name="LAST_COMMIT_MESSAGE" value="autogame added" />
+    <MESSAGE value="levels added" />
+    <option name="LAST_COMMIT_MESSAGE" value="levels added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,6 +555,108 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sortList#0;class#Mech#0" expanded="false" />
+            <element signature="method#contain#0;class#Mech#0" expanded="false" />
+            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
+            <element signature="method#output#0;class#Mech#0" expanded="false" />
+            <element signature="method#finish#0;class#Mech#0" expanded="false" />
+            <element signature="method#results#0;class#Mech#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="73" column="56" lean-forward="false" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#space#0;class#ConsoleHelper#0" expanded="false" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2367#2368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sortList#0;class#Mech#0" expanded="false" />
+            <element signature="method#contain#0;class#Mech#0" expanded="false" />
+            <element signature="method#playerGame#0;class#Mech#0" expanded="false" />
+            <element signature="method#output#0;class#Mech#0" expanded="false" />
+            <element signature="method#finish#0;class#Mech#0" expanded="false" />
+            <element signature="method#results#0;class#Mech#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="56" lean-forward="false" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#space#0;class#ConsoleHelper#0" expanded="false" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2367#2368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -569,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501500">
           <caret line="29500" column="5" lean-forward="false" selection-start-line="29500" selection-start-column="5" selection-end-line="29500" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501500">
           <caret line="29500" column="5" lean-forward="true" selection-start-line="29500" selection-start-column="5" selection-end-line="29500" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,13 +933,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501500">
           <caret line="29500" column="5" lean-forward="false" selection-start-line="29500" selection-start-column="5" selection-end-line="29500" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/view/ConsoleHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="1088">
           <caret line="73" column="56" lean-forward="false" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -834,22 +951,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/word_game/dictionaries/singular.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Mech.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sortList#0;class#Mech#0" expanded="false" />
@@ -862,10 +975,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/LevelCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/word_game/mechanism/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
