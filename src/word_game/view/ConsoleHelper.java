@@ -67,10 +67,14 @@ public class ConsoleHelper {
     }
 
     public void gameWon() {
-        System.out.println("Поздравляем! Уровень пройден!");
+        System.out.println("Поздравляем! Уровень пройден");
     }
 
     public void gameLost() {
         System.out.println("Сожалеем, уровень не пройден");
+    }
+
+    public void score(int user, int comp) {
+        System.out.println("Твой счёт " + user + ":" + comp);
     }
 }

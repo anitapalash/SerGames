@@ -10,10 +10,14 @@ public class LevelCreator {
     double levelCoef;
     Mech mech;
     ArrayList<String> winnerList;
+    int winnerLetters;
+    int userLetters;
 
     public LevelCreator(Mech mech) throws IOException {
         this.mech = mech;
         this.mech.setBase(createBaseWord());
+        winnerLetters = 0;
+        userLetters = 0;
     }
 
     public void setLevel(int level) {
@@ -59,7 +63,13 @@ public class LevelCreator {
 
     //функция определения победы
     public boolean isGameWon() {
-        if (mech.userWords.size() >= winnerList.size())
+        for (String s : mech.userWords)
+            userLetters += s.toCharArray().length;
+
+        for (String s : winnerList)
+            winnerLetters += s.toCharArray().length;
+
+        if (userLetters >= winnerLetters)
             return true;
         else return false;
     }
