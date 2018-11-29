@@ -78,14 +78,32 @@ public class SerDict {
     }
 
     public static void fuse() {
-
+        System.out.println("Что ж, давай соединим два словарика");
+        System.out.println("Для начала введи путь к новому файлу:");
+        try (BufferedReader fileReader = new BufferedReader((new FileReader(reader.readLine())))) {
+            String line;
+            int i = 0;
+            while ((line = fileReader.readLine()) != null) {
+                if (!dictionary.contains(line)) {
+                    dictionary.add(line);
+                    flag = true;
+                }
+            }
+            System.out.println("В словарь добавлено: " + i);
+        } catch (FileNotFoundException e) {
+            System.out.println("Что-то пошло не так, давай вернемся в главное меню");
+            return;
+        } catch (IOException e) {
+            System.out.println("Что-то пошло не так, давай вернемся в главное меню");
+            return;
+        }
     }
 
     public static class DictionaryMaker extends Thread {
         public void run() {
             //перенесем все слова в словарь
-            String line;
             try (BufferedReader fileReader = new BufferedReader(new FileReader(path))){
+                String line;
                 while ((line = fileReader.readLine()) != null) {
                     if (!dictionary.contains(line))
                         dictionary.add(line);
