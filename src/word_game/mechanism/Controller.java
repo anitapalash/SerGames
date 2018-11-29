@@ -35,9 +35,8 @@ public class Controller {
             //Финиш и результаты
             helper.space();
             System.out.println("Финиш!");
-            //helper.space();
+            helper.space();
 
-            /*
             //вывод слов пользователя
             System.out.println("Слова, которые ты составил:");
             mech.results();
@@ -46,7 +45,7 @@ public class Controller {
             //вывод возможных слов
             System.out.println("Слова, которые нужно было составить для победы:");
             mech.finish(levelCreator.winnerList);
-            */
+
 
             //вывод результата игры
             helper.space();
